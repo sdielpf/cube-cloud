@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: core
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: core
+server:
+  port: 9001

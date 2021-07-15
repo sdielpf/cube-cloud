@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      profile: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-dev:8761/eureka/
+upload:
+  filePath: /Users/pengfeiliu/nginx/html/file/

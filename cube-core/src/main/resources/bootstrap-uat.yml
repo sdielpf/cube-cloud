@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      profile: uat
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-uat:8761/eureka/
+upload:
+  filePath: /data/nginx-uat/html/file/
